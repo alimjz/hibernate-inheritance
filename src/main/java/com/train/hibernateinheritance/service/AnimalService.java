@@ -15,7 +15,7 @@ public class AnimalService {
     public AnimalService(AnimalRepository repository) {
         this.repository = repository;
         this.repository.save(new Snake(1, "crawler", "Anaconda"));
-        this.repository.save(new Dog(2, "canines", "Anaconda"));
+        this.repository.save(new Dog(2, "canines", "Milow"));
     }
 
     public List<Animal> findAllAnimals(){
